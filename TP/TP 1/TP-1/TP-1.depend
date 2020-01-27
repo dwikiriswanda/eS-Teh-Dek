@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1580077179 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 1\tp-1\hello.cpp
+	"hello.h"
+
+1580077180 d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 1\tp-1\hello.h
+	<iostream>
+	<cstdlib>
+
+1580077179 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 1\tp-1\main.cpp
+	"hello.h"
+
