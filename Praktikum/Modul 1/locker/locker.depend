@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1580367851 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 1\locker\locker.cpp
+	"locker.h"
+
+1580486811 d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 1\locker\locker.h
+	<iostream>
+
+1580367851 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 1\locker\main.cpp
+	"locker.cpp"
+
+1580486811 d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 1\locker\locker.cpp
+	"locker.h"
+
