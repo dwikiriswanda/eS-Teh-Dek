@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1580664758 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 2\tp-2\main.cpp
+	<iostream>
+	"list.cpp"
+
+1580664816 d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 2\tp-2\list.cpp
+	<iostream>
+	"list.h"
+
+1580663416 d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 2\tp-2\list.h
+	<iostream>
+
