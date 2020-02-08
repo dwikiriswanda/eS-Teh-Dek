@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1580949298 source:d:\1302194015\sll\main.cpp
+	"sll.h"
+
+1580944653 d:\1302194015\sll\sll.cpp
+	"sll.h"
+
+1580946971 d:\1302194015\sll\sll.h
+	<iostream>
+
+1580949247 source:d:\1302194015\sll\sll.cpp
+	"sll.h"
+
+1581173167 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 2\1302194015 - copy\sll\main.cpp
+	"sll.h"
+
+1580946971 d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 2\1302194015 - copy\sll\sll.h
+	<iostream>
+
+1581172102 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 2\1302194015 - copy\sll\sll.cpp
+	"sll.h"
+
