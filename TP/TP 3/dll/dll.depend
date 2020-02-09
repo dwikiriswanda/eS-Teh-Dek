@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1581262819 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 3\dll\main.cpp
+	<iostream>
+	"dll.h"
+
+1581266256 d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 3\dll\dll.h
+	<iostream>
+	<string.h>
+	<stdbool.h>
+
+1581266370 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 3\dll\dll.cpp
+	"dll.h"
+	<iostream>
+
