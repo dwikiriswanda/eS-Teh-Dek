@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1581554085 source:c:\users\praktikan\downloads\praktikum ini\slldll\main.cpp
+	"slldll.h"
+
+1581554540 c:\users\praktikan\downloads\praktikum ini\slldll\slldll.h
+	<iostream>
+
+1581551228 source:c:\users\praktikan\downloads\praktikum ini\slldll\slldll.cpp
+	"slldll.h"
+
