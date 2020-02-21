@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1582183203 source:d:\dll_first_last\main.cpp
+	"DLL_First_Last.h"
+	<iostream>
+
+1582180582 d:\dll_first_last\dll_first_last.h
+	<iostream>
+
+1582183898 source:d:\dll_first_last\dll_first_last.cpp
+	"DLL_First_Last.h"
+
