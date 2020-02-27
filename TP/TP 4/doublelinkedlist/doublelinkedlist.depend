@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1581876103 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 4\doublelinkedlist\doublelinkedlist.cpp
+	"doublelinkedlist.h"
+
+1581875861 d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 4\doublelinkedlist\doublelinkedlist.h
+	<iostream>
+
+1581876299 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 4\doublelinkedlist\main.cpp
+	"doublelinkedlist.h"
+
