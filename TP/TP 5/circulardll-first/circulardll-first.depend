@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1582480983 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 5\circulardll-first\main.cpp
+	"circulardll-first.h"
+
+1582481010 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 5\circulardll-first\circulardll-first.cpp
+	"circulardll-first.h"
+
+1582479762 d:\telkom university\se-43-03\kelas\semester 2\struktur data\tp\tp 5\circulardll-first\circulardll-first.h
+	<iostream>
+
