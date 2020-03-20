@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1584536412 source:d:\pr\clo1_pey\main.cpp
+	"LIST.h"
+
+1584533266 d:\pr\clo1_pey\list.h
+	<iostream>
+
+1584536425 source:d:\pr\clo1_pey\list.cpp
+	"LIST.h"
+
