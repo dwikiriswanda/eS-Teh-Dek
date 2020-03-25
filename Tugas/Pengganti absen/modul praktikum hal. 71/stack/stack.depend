@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1585147492 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tugas\pengganti absen\modul praktikum hal. 71\stack\main.cpp
+	"Stack.h"
+
+1585147561 d:\telkom university\se-43-03\kelas\semester 2\struktur data\tugas\pengganti absen\modul praktikum hal. 71\stack\stack.h
+	<string>
+	<iostream>
+
+1585147527 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tugas\pengganti absen\modul praktikum hal. 71\stack\stack.cpp
+	"Stack.h"
+

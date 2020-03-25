@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1585149012 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tugas\pengganti absen\modul praktikum hal. 82\queue\main.cpp
+	"queue.h"
+
+1585150429 d:\telkom university\se-43-03\kelas\semester 2\struktur data\tugas\pengganti absen\modul praktikum hal. 82\queue\queue.h
+	<iostream>
+
+1585148735 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tugas\pengganti absen\modul praktikum hal. 82\queue\queue.cpp
+	"queue.h"
+
