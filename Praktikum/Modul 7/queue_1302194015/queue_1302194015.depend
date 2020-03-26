@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1585208042 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 7\queue_1302194015\queue_1302194015.cpp
+	"queue_1302194015.h"
+
+1585208042 d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 7\queue_1302194015\queue_1302194015.h
+	<iostream>
+

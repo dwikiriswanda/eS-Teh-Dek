@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1585206524 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 7\stack_1302194015\stack_1302194015.cpp
+	"stack_1302194015.h"
+
+1585206524 d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 7\stack_1302194015\stack_1302194015.h
+	<iostream>
+
+1585206833 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 7\stack_1302194015\main_1302194015.cpp
+	"stack_1302194015.h"
+
