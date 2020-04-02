@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1585811890 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\assessment\assessment clo 2\stack\main_1302194015.cpp
+	"header_1302194015.h"
+
+1585811538 d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\assessment\assessment clo 2\stack\header_1302194015.h
+	<iostream>
+
+1585812147 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\assessment\assessment clo 2\stack\body_1302194015.cpp
+	"header_1302194015.h"
+
