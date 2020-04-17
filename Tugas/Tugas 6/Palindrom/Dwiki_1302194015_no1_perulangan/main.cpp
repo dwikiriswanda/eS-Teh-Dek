@@ -23,6 +23,6 @@ int main()
 {
     char kalimat[] = {'K', 'A', 'T', 'A', 'K'};
 	cout << boolalpha;
-    cout << "Apakah kata tersebut Palindrom? "<< isPalindrom(kalimat, 5);
+    cout << "Apakah kata tersebut Palindrom? " << isPalindrom(kalimat, 5);
     return 0;
 }

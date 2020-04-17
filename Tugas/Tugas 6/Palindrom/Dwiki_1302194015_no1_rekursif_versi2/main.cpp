@@ -17,8 +17,8 @@ bool isPalindrom(text S, int i, int j) {    // VERSI 2
 
 int main()
 {
-    char kalimat[] = {'K', 'A', 'T', 'A', 'K'};
+    char kalimat[] = {'I', 'b', 'u', 'R', 'a', 't', 'n', 'a', 'a', 'n', 't', 'a', 'R', 'u', 'b', 'I'};
 	cout << boolalpha;
-    cout << isPalindrom(kalimat, 0, 4);
+    cout << "Apakah kata tersebut Palindrom? " << isPalindrom(kalimat, 0, 15);
     return 0;
 }

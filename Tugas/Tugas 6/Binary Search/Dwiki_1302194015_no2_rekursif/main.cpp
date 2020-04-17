@@ -23,7 +23,8 @@ int main()
 {
     int T[] = {12, 30, 32, 55, 65, 73, 99};
     int N = 7;
-    cout << biSearch(T, 5, 0, N - 1);
+    cout << "Jadi angka tersebut berada pada indeks ke- ";
+    cout << biSearch(T, 32, 0, N - 1);
     return 0;
 }
 

@@ -18,6 +18,7 @@ void Triangle(int N) {
 int main()
 {
     int N;
+    cout << "Masukkan bilangan: ";
     cin >> N;
     Triangle(N);
     return 0;

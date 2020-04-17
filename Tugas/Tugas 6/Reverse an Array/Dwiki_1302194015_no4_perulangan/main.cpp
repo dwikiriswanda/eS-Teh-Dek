@@ -22,6 +22,7 @@ int main()
     int T[] = {12, 30, 32, 55, 65, 73, 99};
     int N = 7;
     Reverse(T, N);
+    cout << "Jadi susunan array setelah di reverse adalah ";
     for (int i = 0; i < 7; i++) {
         cout << T[i] << " ";
     }

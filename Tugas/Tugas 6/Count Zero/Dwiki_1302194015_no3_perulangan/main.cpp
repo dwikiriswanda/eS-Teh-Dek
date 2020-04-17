@@ -20,8 +20,10 @@ int countZero(tabInt T, int N) {
 
 int main()
 {
-    int T[] = {12, 30, 32, 55, 65, 73, 99};
+    int T[] = {12, 30, 0, 55, 65, 73, 99};
     int N = 7;
+    cout << "Jadi angka 0 muncul ";
     cout << countZero(T, N);
+    cout << " kali pada array tersebut";
     return 0;
 }
