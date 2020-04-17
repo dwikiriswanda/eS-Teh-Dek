@@ -33,6 +33,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="queue.cpp" />
+		<Unit filename="queue.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
