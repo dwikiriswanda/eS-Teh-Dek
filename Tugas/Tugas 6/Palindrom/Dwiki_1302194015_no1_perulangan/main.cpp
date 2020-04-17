@@ -15,7 +15,7 @@ bool isPalindrom(text S, int N) {
     while (i <= j && status) {
         status = S[i] == S[j];
         i++;
-        j++;
+        j--;
     }
     return status;
 }
