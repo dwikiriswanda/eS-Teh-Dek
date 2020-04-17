@@ -6,7 +6,7 @@ using namespace std;
 
 typedef int tabInt[];
 
-void Reverse(tabInt &T, int i, int j) {
+void Reverse(tabInt T, int i, int j) {
     int temp;
 
     // BASE CASE i > j dan tidak ada aksi
@@ -23,5 +23,8 @@ int main()
     int T[] = {12, 30, 32, 55, 65, 73, 99};
     int N = 7;
     Reverse(T, 0, N - 1);
+    for (int i = 0; i < 7; i++) {
+        cout << T[i] << " ";
+    }
     return 0;
 }
