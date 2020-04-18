@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1587214393 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tugas\tugas 5\graph berarah tipe 2\graph\body.cpp
+	"header.h"
+
+1587134728 d:\telkom university\se-43-03\kelas\semester 2\struktur data\tugas\tugas 5\graph berarah tipe 2\graph\header.h
+	<iostream>
+
+1587213829 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\tugas\tugas 5\graph berarah tipe 2\graph\main.cpp
+	"header.h"
+
