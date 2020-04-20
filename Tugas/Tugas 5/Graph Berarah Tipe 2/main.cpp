@@ -2,7 +2,6 @@
 
 int main()
 {
-    cout << "Hello world!" << endl;
     adrVertek Graph;
     createGraph(Graph);
     adrVertek A, B, C, D, E;
@@ -16,38 +15,51 @@ int main()
     insertVertek(Graph, D);
     E = alokasiVertek('E');
     insertVertek(Graph, E);
-    cout<<"Graph before insert edge: "<<endl;
+
+    cout << "==================================================" << endl;
+    cout << "Graph sebelum di insert Edge: " << endl;
     printGraph(Graph);
+    cout << "==================================================" << endl;
+
+    cout << "Graph sesudah di insert Edge: " << endl;
     insertEdge(A, B);
     insertEdge(B, C);
+    insertEdge(C, D);
+    insertEdge(D, E);
     insertEdge(B, D);
     insertEdge(C, A);
     insertEdge(C, C);
-    insertEdge(C, D);
     insertEdge(D, D);
-    insertEdge(D, E);
-    cout<<"Graph after insert edge: "<<endl;
     printGraph(Graph);
+    cout << "Apakah Graph tersebut Multigraph? ";
     infoMultiGraph(Graph);
-    cout<<"Degree In: "<<endl;
-    cout<<"A: "<<countDegreeIn(Graph, A)<<endl;
-    cout<<"B: "<<countDegreeIn(Graph, B)<<endl;
-    cout<<"C: "<<countDegreeIn(Graph, C)<<endl;
-    cout<<"D: "<<countDegreeIn(Graph, D)<<endl;
-    cout<<"E: "<<countDegreeIn(Graph, E)<<endl;
-    cout<<"Degree Out: "<<endl;
-    cout<<"A: "<<countDegreeOut(Graph, A)<<endl;
-    cout<<"B: "<<countDegreeOut(Graph, B)<<endl;
-    cout<<"C: "<<countDegreeOut(Graph, C)<<endl;
-    cout<<"D: "<<countDegreeOut(Graph, D)<<endl;
-    cout<<"E: "<<countDegreeOut(Graph, E)<<endl;
+    cout << "==================================================" << endl;
+
+    cout << "Banyaknya Degree In: " << endl;
+    cout << "Vertek A: " << countDegreeIn(Graph, A) << endl;
+    cout << "Vertek B: " << countDegreeIn(Graph, B) << endl;
+    cout << "Vertek C: " << countDegreeIn(Graph, C) << endl;
+    cout << "Vertek D: " << countDegreeIn(Graph, D) << endl;
+    cout << "Vertek E: " << countDegreeIn(Graph, E) << endl;
+    cout << "==================================================" << endl;
+    cout << "Banyaknya Degree Out: " << endl;
+    cout << "Vertek A: " << countDegreeOut(Graph, A) << endl;
+    cout << "Vertek B: " << countDegreeOut(Graph, B) << endl;
+    cout << "Vertek C: " << countDegreeOut(Graph, C) << endl;
+    cout << "Vertek D: " << countDegreeOut(Graph, D) << endl;
+    cout << "Vertek E: " << countDegreeOut(Graph, E) << endl;
+    cout << "==================================================" << endl;
+
+    cout << "Graph sesudah di delete beberapa Edge:" << endl;
     delEdge(C, C);
     delEdge(D, D);
-    cout<<"Graph after delete some edge:"<<endl;
     printGraph(Graph);
-    infoMultiGraph(Graph);
+
+    cout << "Graph sesudah di delete Vertek C:" << endl;
     delVertek(Graph, C);
-    cout<<"Graph after delete Vertek C:"<<endl;
     printGraph(Graph);
+    cout << "Apakah Graph tersebut Multigraph? ";
+    infoMultiGraph(Graph);
+    cout << "==================================================" << endl;
     return 0;
 }

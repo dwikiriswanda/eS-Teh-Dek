@@ -11,15 +11,18 @@ using namespace std;
 typedef char infotype;
 typedef struct vertek *adrVertek;
 typedef struct edge *adrEdge;
+
 struct vertek {
  infotype info;
  adrVertek next;
  adrEdge firstEdge;
 };
+
 struct edge {
  adrVertek info;
  adrEdge next;
 };
+
 void createGraph(adrVertek &Graph);
 adrVertek alokasiVertek(infotype label);
 adrEdge alokasiEdge();

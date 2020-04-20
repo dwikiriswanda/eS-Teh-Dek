@@ -3,6 +3,7 @@
 void createGraph(adrVertek &Graph){
     Graph = Nil;
 };
+
 adrVertek alokasiVertek(infotype label){
     adrVertek P = new vertek;
     info(P) = label;
@@ -10,12 +11,14 @@ adrVertek alokasiVertek(infotype label){
     next(P) = Nil;
     return P;
 };
+
 adrEdge alokasiEdge(){
     adrEdge P = new edge;
     info(P) = Nil;
     next(P) = Nil;
     return P;
 };
+
 void insertVertek(adrVertek &Graph, adrVertek P){
     if (Graph == Nil){
         Graph = P;
@@ -24,6 +27,7 @@ void insertVertek(adrVertek &Graph, adrVertek P){
         Graph = P;
     }
 };
+
 void insertEdge(adrVertek &src, adrVertek &dest){
     adrEdge P = alokasiEdge();
     info(P) = dest;
@@ -37,6 +41,7 @@ void insertEdge(adrVertek &src, adrVertek &dest){
         next(Q) = P;
     }
 };
+
 adrVertek pencarianVertek(adrVertek Graph, infotype X){
     adrVertek P = Graph;
     adrVertek found = Nil;
@@ -48,34 +53,38 @@ adrVertek pencarianVertek(adrVertek Graph, infotype X){
     }
     return found;
 };
+
 void adjacencyVertex(adrVertek Graph, infotype X){
     adrVertek P = pencarianVertek(Graph, X);
-    cout<<X<<" -";
+    cout << X << " -";
     adrEdge Q = firstEdge(P);
     while (Q != Nil){
-        cout<<" "<<info(info(Q))<<" -";
+        cout << " " << info(info(Q)) << " -";
         Q = next(Q);
     }
-    cout<<endl;
+    cout << endl;
 };
+
 bool isConnected(adrVertek src, adrVertek v){
     adrEdge P = firstEdge(src);
     bool connected = false;
     while (P != Nil){
-        if (info(P)== v){
+        if (info(P) == v){
             connected = true;
         }
         P = next(P);
     }
     return connected;
 };
+
 bool isLoop (adrVertek src, adrVertek dest){
-    if (isConnected(src, dest) && info(src)== info(dest)){
+    if (isConnected(src, dest) && info(src) == info(dest)){
         return true;
     } else {
         return false;
     }
 };
+
 int countDegreeIn(adrVertek Graph, adrVertek v){
     adrVertek P = Graph;
     int counter = 0;
@@ -87,6 +96,7 @@ int countDegreeIn(adrVertek Graph, adrVertek v){
     }
     return counter;
 };
+
 int countDegreeOut(adrVertek Graph, adrVertek v){
     adrEdge P = firstEdge(v);
     int counter = 0;
@@ -114,14 +124,13 @@ void delVertek(adrVertek &Graph, adrVertek v){
         next(P) = next(Del);
         Del = Nil;
     }
+}; // del vertex v
 
-
-};
 void delEdge(adrVertek &src, adrVertek &dest){
     adrEdge P = firstEdge(src);
     if (info(P) == dest){
         adrEdge Del = firstEdge(src);
-        firstEdge(src)= next(Del);
+        firstEdge(src) = next(Del);
         Del = Nil;
     } else {
         while(next(P) != Nil && info(next(P)) != dest){
@@ -133,29 +142,32 @@ void delEdge(adrVertek &src, adrVertek &dest){
         Del = Nil;
         }
     }
-};
+}; // del edge between src-dest
+
 bool isMultiGraph(adrVertek Graph){
      adrVertek P = Graph;
      bool multi = false;
      while (P != Nil){
-        if (isLoop(P, P)){
+        if (isLoop(P, P) && isConnected(P, Graph)){
             multi = true;
          }
             P = next(P);
      }
      return multi;
-};
+}; // print simple graph or multi graph
+
 void infoMultiGraph(adrVertek Graph){
     if(isMultiGraph(Graph) == true){
-        cout<<"Graph is a multigraph"<<endl;
+        cout << "Multigraph" << endl;
     } else {
-        cout<<"Graph is not a multigraph"<<endl;
+        cout << "Bukan multigraph" << endl;
     }
-}
+}; // print simple graph or multi graph
+
 void printGraph(adrVertek Graph){
     adrVertek P = Graph;
     while (P != Nil){
         adjacencyVertex(Graph, info(P));
         P = next(P);
     }
-}
+}; // print all vertices and the adjacency
