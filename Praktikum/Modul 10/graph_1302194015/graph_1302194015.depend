@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1587021087 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 10\graph_1302194015\body_1302194015.cpp
+	"header_1302194015.h"
+
+1587021843 d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 10\graph_1302194015\header_1302194015.h
+	<iostream>
+
+1587021320 source:d:\telkom university\se-43-03\kelas\semester 2\struktur data\praktikum\modul 10\graph_1302194015\main_1302194015.cpp
+	"header_1302194015.h"
+
